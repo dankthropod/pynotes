@@ -1,0 +1,33 @@
+[[package]]
+name = "point"
+version = "0.0.1"
+description = "python print utility."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+six = "1.11.0"
+
+[[package]]
+name = "six"
+version = "1.11.0"
+description = "Python 2 and 3 compatibility utilities"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "b210ca5f570555f47eebc6675d7318f755d7e47614fff31078863c1e3a6ca751"
+
+[metadata.files]
+point = [
+    {file = "point-0.0.1-py2-none-any.whl", hash = "sha256:4e0aca11085f2a7f0482b0106746b4a9b4f6d0d9bcda9820fba54341f9cb9f81"},
+    {file = "point-0.0.1.tar.gz", hash = "sha256:1ef086592ad2b8c65548f9d93d041a28fef3e7cff8456dca47cca934bcac324a"},
+]
+six = [
+    {file = "six-1.11.0-py2.py3-none-any.whl", hash = "sha256:832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb"},
+    {file = "six-1.11.0.tar.gz", hash = "sha256:70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9"},
+]
